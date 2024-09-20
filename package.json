@@ -1,0 +1,28 @@
+{
+	"name": "@astrology-cm/tsconfig",
+	"description": "Shared TypeScript configuration",
+	"version": "1.0.0",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"files": [
+		"base.json",
+		"cjs.json",
+		"esm.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/astrology-cm/tsconfig.git"
+	},
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	],
+	"devDependencies": {
+		"npm-check-updates": "^17.1.2",
+		"prettier": "^3.3.3"
+	}
+}
